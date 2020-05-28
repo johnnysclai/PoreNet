@@ -1,3 +1,3 @@
 # PoreNet
 
-Source code will be coming soon!
+Demo code is provided.
