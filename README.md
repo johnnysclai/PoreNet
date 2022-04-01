@@ -3,7 +3,7 @@
 PyTorch demo code of [High-resolution Face Recognition via Deep Pore-feature Matching](https://ieeexplore.ieee.org/abstract/document/8803686).
 
 ### Example result
-![result](https://github.com/johnnysclai/PoreNet/img/billgates_result.png)
+![result](https://github.com/johnnysclai/PoreNet/raw/master/img/billgates_result.png)
 
 ### Citation
 If you find this work useful for your research, please consider cite our paper:
