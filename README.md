@@ -3,7 +3,7 @@
 PyTorch implementation of [High-resolution Face Recognition via Deep Pore-feature Matching](https://ieeexplore.ieee.org/abstract/document/8803686).
 
 ### Citation
-If you find this repo is useful, please cite the following paper:
+If you find this repo useful, please cite the following paper:
 ```
 @inproceedings{lai2019high,
   title={High-resolution Face Recognition via Deep Pore-feature Matching},
