@@ -186,8 +186,6 @@ def log_detect(image_gray, threshold=0.006, overlap=.5, eliminate=True):
 	th_offset = __parameters["th_offset"]
 	ratio = __parameters["ratio"]
 
-	assert_nD(image_gray, 2)
-
 	th = np.mean(image_gray) - th_offset
 	binary_image = threshold_niblack(image_gray, window_size=31, k=0) > th
 

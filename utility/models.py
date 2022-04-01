@@ -383,7 +383,7 @@ def get_coord_layer(size, center_pt, rec_size):
 		affine = torch.Tensor([1, 0, 0, 0, 1, 0]).view(-1, 2, 3)
 		ones = torch.ones((1, 2, 3))
 		theta = ones * affine
-		grid = F.affine_grid(theta, torch.Size([1, 1, size, size]))
-		xy_channel = F.grid_sample(xy_channel, grid)[0]
+		grid = F.affine_grid(theta, torch.Size([1, 1, size, size], align_corners=True))
+		xy_channel = F.grid_sample(xy_channel, grid, align_corners=True)[0]
 
 		return xy_channel
