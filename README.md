@@ -23,7 +23,7 @@ If you find this work useful for your research, please consider cite our paper:
 ```
 
 ### Requirements
-- Python3, and install the required library using pip.
+- Python3, and install the required libraries using pip.
 ```bash
 pip install -r requirements.txt
 ```
