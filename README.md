@@ -1,6 +1,4 @@
 # PoreNet
-![visitors](https://visitor-badge.glitch.me/badge?page_id=johnnysclai/PoreNet)
-
 PyTorch demo code of [High-resolution Face Recognition via Deep Pore-feature Matching](https://ieeexplore.ieee.org/abstract/document/8803686).
 
 ### Demo
